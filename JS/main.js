@@ -8,7 +8,7 @@ function detectOS()
 
     if(os == "Windows")
     {
-        //alert("SORRY, You can't enter to this website  D:");
+        alert("SORRY, You can't enter to this website  D:");
     }
 
     if(os == "MacOS")
