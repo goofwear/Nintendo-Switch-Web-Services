@@ -1,6 +1,8 @@
 img{
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 p{
@@ -12,15 +14,10 @@ p{
 }
 
 .atmosphere{
-    margin-right: -100px;
+    margin-right: -40px;
     margin-top: -80px;
 } 
 
 .atmosphere-image{
     margin-right: 150px;
-}
-
-.reinx{
-    margin-right: 30px;
-    margin-top: -400px;
 }
