@@ -1,0 +1,9 @@
+function launchAtmosphere()
+{
+
+}
+
+function launchHekate()
+{
+    
+}
