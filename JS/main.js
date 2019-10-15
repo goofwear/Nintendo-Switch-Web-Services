@@ -39,3 +39,9 @@ function redirectPayloadLauncher()
     var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/payloadLoader.html";
     window.location.href = redirectPayloadLauncher;
 }
+
+function redirectGames()
+{
+    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/games.html"; 
+    window.location.href = redirectGamesPage;
+}
