@@ -1,0 +1,22 @@
+img{
+    min-width: 400px;
+    min-height: 400px;
+}
+
+p{
+    font-size: 2.3em;
+}
+
+.hekate{
+    margin-left: 20px;
+}
+
+.atmosphere{
+    margin-right: 10px;
+    margin-top: -80px;
+} 
+
+.reinx{
+    margin-right: 30px;
+    margin-top: -400px;
+}
