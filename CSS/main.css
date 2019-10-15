@@ -1,0 +1,42 @@
+/*Direct Instructions*/
+body{
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 140, 255));
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+button{
+    border: none; 
+    border-radius: 25px;
+    min-width: 130px;
+    min-height: 50px;
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+button:hover{
+    background-color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+}
+
+/*Direct Custom Instructions*/
+
+/*Custom Instructions*/
+.padding-10{
+    padding: 10px;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+/*ID's*/
