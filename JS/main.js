@@ -36,6 +36,6 @@ function sayNotReady()
 
 function redirectPayloadLauncher()
 {
-    var redirectPayloadLauncher = "";
+    var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/payloadLoader.html";
     window.location.href = redirectPayloadLauncher;
 }
