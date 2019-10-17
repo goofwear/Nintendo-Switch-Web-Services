@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Paint | Nintendo Switch Web Exploit</title>
+	<link rel="shortcut icon" href="../../../../img/Favicon/Favicon.jpg" type="image/x-icon">
 <style type="text/css">
 	*{
 		margin: 0;
@@ -9,10 +10,13 @@
  
 	}
 	canvas{
-		margin-top: -10px;
 		display: block;
 		margin: auto;
 		background-color: rgb(104, 104, 104);
+		max-width: 1280;
+		max-height: 720;
+		margin-top: 10px;
+		border-radius: 50px;
 	}
 
 	input{
@@ -22,7 +26,13 @@
 	}
 
 	body{
-		background-color: rgb(0, 0, 0);
+		background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 119, 255));
+		color: rgb(255, 255, 255);
+		font-family: 'Roboto';
+	}
+
+	.padding-10{
+		padding: 10px
 	}
 </style>
 <script type="text/javascript">
@@ -72,7 +82,8 @@
 </script>
 </head>
 <body align="center">
-	<input type="button" name="" value="Delete" onclick="herramienta='borrador'">
+	<h1 class="padding-10">Paint</h1>
+	<input class="padding-10" type="button" name="" value="Delete" onclick="herramienta='borrador'">
 	<input type="button" name="" value="Pencil" onclick="herramienta='lapiz'">
 <!--<input type="text" placeholder="Line Width" id="width">
 	<input type="text" placeholder="Color in HEX" id="color"> -->
