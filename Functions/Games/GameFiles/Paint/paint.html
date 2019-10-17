@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Paint en Canvas JS</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+ 
+	}
+	canvas{
+		display: block;
+		margin: auto;
+		background-color: rgb(0, 0, 0);
+	}
+
+	input{
+		min-width: 100px;
+		min-height: 50px;
+		border: none; 
+	}
+</style>
+<script type="text/javascript">
+	herramienta = "lapiz";
+	tamano = 20;
+	pintar = Boolean(false);
+	color_prim = "#FFF";
+	color_sec = "#FFF";
+	window.onload = function(){
+		'use strict';
+		var c = document.createElement("canvas");
+		var ctx = c.getContext("2d");
+ 
+		c.setAttribute("width", window.innerWidth);
+    	c.setAttribute("height", window.innerHeight);
+ 
+		document.body.appendChild(c);
+ 
+		c.onmousedown = function (e){
+			pintar = true;
+			if( herramienta == "lapiz" ){
+				ctx.moveTo(e.pageX - c.offsetLeft, e.pageY - c.offsetTop);
+			}
+		}
+		c.onmouseup = function(){
+			pintar = false;
+			ctx.beginPath();
+		}
+		c.onmousemove = function(e){
+			if (pintar) {
+				if (herramienta == "lapiz") {
+					ctx.lineTo(e.pageX - c.offsetLeft, e.pageY - c.offsetTop);
+					ctx.lineWidth = tamano;
+					ctx.strokeStyle = color_prim;
+					ctx.stroke();
+				}
+				else if(herramienta == "borrador"){
+					ctx.beginPath();
+					ctx.clearRect(e.pageX - c.offsetLeft, e.pageY - c.offsetTop,tamano,tamano);
+				}
+			}
+		}
+		c.onmouseout = function(){
+			pintar = false;
+		};
+	}
+</script>
+</head>
+<body align="center">
+	<input type="button" name="" value="Delete" onclick="herramienta='borrador'">
+	<input type="button" name="" value="Pencil" onclick="herramienta='lapiz'">
+<!--<input type="text" placeholder="Line Width" id="width">
+	<input type="text" placeholder="Color in HEX" id="color"> -->
+</body>
+</html>
