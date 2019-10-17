@@ -51,3 +51,11 @@ function redirectGameIndex()
     var redirectGameIndex = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/gameIndex.html"; 
     window.location.href = redirectGameIndex;
 }
+
+// GAMES 
+
+function redirectToPaint()
+{
+    var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/GameFiles/Paint/paint.html";
+    window.location.href = gameLink;
+}
