@@ -3,84 +3,10 @@
 <head>
 	<title>Paint | Nintendo Switch Web Exploit</title>
 	<link rel="shortcut icon" href="../../../../img/Favicon/Favicon.jpg" type="image/x-icon">
-<style type="text/css">
-	*{
-		margin: 0;
-		padding: 0;
- 
-	}
-	canvas{
-		display: block;
-		margin: auto;
-		background-color: rgb(104, 104, 104);
-		max-width: 1280;
-		max-height: 720;
-		margin-top: 10px;
-		border-radius: 50px;
-	}
-
-	input{
-		min-width: 100px;
-		min-height: 50px;
-		border: none; 
-	}
-
-	body{
-		background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 119, 255));
-		color: rgb(255, 255, 255);
-		font-family: 'Roboto';
-	}
-
-	.padding-10{
-		padding: 10px
-	}
-</style>
-<script type="text/javascript">
-	herramienta = "lapiz";
-	tamano = 20;
-	pintar = Boolean(false);
-	color_prim = "#FFF";
-	color_sec = "#FFF";
-	window.onload = function(){
-		'use strict';
-		var c = document.createElement("canvas");
-		var ctx = c.getContext("2d");
- 
-		c.setAttribute("width", window.innerWidth);
-    	c.setAttribute("height", window.innerHeight);
- 
-		document.body.appendChild(c);
- 
-		c.onmousedown = function (e){
-			pintar = true;
-			if( herramienta == "lapiz" ){
-				ctx.moveTo(e.pageX - c.offsetLeft, e.pageY - c.offsetTop);
-			}
-		}
-		c.onmouseup = function(){
-			pintar = false;
-			ctx.beginPath();
-		}
-		c.onmousemove = function(e){
-			if (pintar) {
-				if (herramienta == "lapiz") {
-					ctx.lineTo(e.pageX - c.offsetLeft, e.pageY - c.offsetTop);
-					ctx.lineWidth = tamano;
-					ctx.strokeStyle = color_prim;
-					ctx.stroke();
-				}
-				else if(herramienta == "borrador"){
-					ctx.beginPath();
-					ctx.clearRect(e.pageX - c.offsetLeft, e.pageY - c.offsetTop,tamano,tamano);
-				}
-			}
-		}
-		c.onmouseout = function(){
-			pintar = false;
-		};
-	}
-</script>
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js"></script>
 </head>
+
 <body align="center">
 	<h1 class="padding-10">Paint</h1>
 	<input class="padding-10" type="button" name="" value="Delete" onclick="herramienta='borrador'">
