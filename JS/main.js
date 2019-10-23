@@ -8,22 +8,19 @@ function detectOS()
 
     if(os == "Windows")
     {
-        alert("SORRY, You can't enter to this website  D:");
+        alert("You can't enter to this website.");
     }
-
-    if(os == "MacOS")
+    else if(os == "MacOS")
     {
-        alert("SORRY, HAS ESCOJIDO LA PUERTA EQUIBOCADA PERRA!");
+        alert("You can't enter to this website.");
     }
-    
-    if(os == "Linux")
+    else if(os == "Linux")
     {
-        alert("If you are using android, you can't enter to this website!");
+        alert("You can't enter to this website.");
     }
-
-    if(os == "UNIX")
+    else if(os == "UNIX")
     {
-        alert("Nigga, WTF!?");
+        alert("You can't enter to this website.");
     }
 }
 
@@ -31,24 +28,24 @@ detectOS()
 
 function sayNotReady()
 {
-    alert("THIS ELEMENT IS NOT READY!")
+    alert("THIS ELEMENT IS NOT READY!");
 }
 
 function redirectPayloadLauncher()
 {
-    var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/payloadLoader.html";
+    var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/payloadLoader.html";
     window.location.href = redirectPayloadLauncher;
 }
 
 function redirectGames()
 {
-    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/games.html"; 
+    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/games.html"; 
     window.location.href = redirectGamesPage;
 }
 
 function redirectGameIndex()
 {
-    var redirectGameIndex = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/gameIndex.html"; 
+    var redirectGameIndex = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/gameIndex.html"; 
     window.location.href = redirectGameIndex;
 }
 
@@ -56,6 +53,6 @@ function redirectGameIndex()
 
 function redirectToPaint()
 {
-    var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Functions/Games/GameFiles/Paint/paint.html";
+    var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/GameFiles/Paint/paint.html";
     window.location.href = gameLink;
 }
