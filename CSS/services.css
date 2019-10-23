@@ -1,0 +1,12 @@
+/*Direct instructions*/
+body
+{
+    font-family: 'Roboto';
+    background-image: linear-gradient(to left, rgb(0, 143, 19), rgb(0, 32, 175));
+    color: rgb(255, 255, 255);
+}
+
+button
+{
+    font-size: 1.5em;
+}
