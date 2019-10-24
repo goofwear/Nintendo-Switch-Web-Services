@@ -49,6 +49,12 @@ function redirectGameIndex()
     window.location.href = redirectGameIndex;
 }
 
+function redirectToServices()
+{
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/services.html";
+    window.location.href = redirectLink;
+}
+
 function redirectToWebsites()
 {
     var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/website/main.html"
