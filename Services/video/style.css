@@ -1,0 +1,38 @@
+body
+{
+    background-image: linear-gradient(to left, rgb(1, 155, 1), rgb(8, 180, 211));
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+}
+
+video
+{
+    max-width: 640px;
+    max-height: 480px;
+    min-width: 360px;
+    min-height: 240px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+button
+{
+    border: none;
+    font-size: 1.5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+input
+{
+    border: none;
+    font-size: 1.5em;
+}
+
+button:hover
+{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
