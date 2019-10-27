@@ -7,8 +7,6 @@ canvas{
     display: block;
     margin: auto;
     background-color: rgb(104, 104, 104);
-    max-width: 1280;
-    max-height: 720;
     margin-top: 10px;
     border-radius: 50px;
 }
@@ -25,7 +23,12 @@ body{
     font-family: 'Roboto';
 }
 
+button
+{
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
 .padding-10{
     padding: 10px
 }
-</style>
