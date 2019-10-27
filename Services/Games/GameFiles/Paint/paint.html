@@ -1,17 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Paint | Nintendo Switch Web Exploit</title>
-	<link rel="shortcut icon" href="../../../../img/Favicon/Favicon.jpg" type="image/x-icon">
-	<link rel="stylesheet" href="style.css">
+	<title>Sketchpad</title>
 	<script src="app.js"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 
-<body align="center">
-	<h1 class="padding-10">Paint</h1>
-	<input class="padding-10" type="button" name="" value="Delete" onclick="herramienta='borrador'">
-	<input type="button" name="" value="Pencil" onclick="herramienta='lapiz'">
-<!--<input type="text" placeholder="Line Width" id="width">
-	<input type="text" placeholder="Color in HEX" id="color"> -->
+<body onload="init()">
+	<header align="center">
+		<h1 style="padding: 10px;">Paint:</h1>
+	</header>
+    <div id="sketchpadapp">
+        <input type="submit" value="Clear" id="clearbutton" onclick="clearCanvas(canvas,ctx);">
+        <div class="rightside">
+            <canvas id="sketchpad" height="300" width="400" style="margin-right: 7px;"></canvas>
+        </div>
+    </div>
 </body>
 </html>
