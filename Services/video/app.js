@@ -1,8 +1,9 @@
 function getVideo()
 {
-    var videoLink = document.getElementById("videoSource").value;
-    var videoFinal = document.getElementById("videoFinal");
-    videoFinal.src = videoLink;
-    videoFinal.load();
-    videoFinal.play();
+    var videoLink = document.getElementById("videoLink").value;
+    var finalVideoSource = document.getElementById("video-source");
+    finalVideoSource.src = videoLink;
+
+    finalVideoSource.load();
+    finalVideoSource.play();
 }
