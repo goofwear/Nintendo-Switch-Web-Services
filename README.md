@@ -1,5 +1,5 @@
-# Nintendo-Switch-Web-Exploit
-With this "web-exploit" you can: open HTML videogames, see videos, open other websites and MORE!, NOW ON DEVELOPMENT!
+# Nintendo Switch Web Exploit
+With this "web exploit" you can: open HTML videogames, see videos, open other websites and MORE!, NOW ON DEVELOPMENT!
 
 [WEBSITE](https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/) (TEST ONLY!)
 
