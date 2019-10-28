@@ -17,7 +17,9 @@
     </header>
 
     <div>
-        <video src="videos/Test.mp4" id="videoFinal" type="video/mp4"></video>
+        <video id="videoFinal" width="640" height="480" autoplay="autoplay">
+            <source src="videos/Test.mp4" type="video/mp4" />
+        </video>
         <h1>Video Source:</h1>
         <input type="text" name="" id="videoSource">
         <button onclick="getVideo()">Load video</button>

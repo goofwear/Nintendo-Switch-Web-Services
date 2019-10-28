@@ -39,7 +39,7 @@ function redirectPayloadLauncher()
 
 function redirectGames()
 {
-    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/games.html"; 
+    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/gameIndex.html"; 
     window.location.href = redirectGamesPage;
 }
 
