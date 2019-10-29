@@ -17,7 +17,7 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 #### FOR HACKED CONSOLES:
 
-1- Open [GoldLeaf](), and select the "Open Website" option.
+1- Open [GoldLeaf](https://github.com/XorTroll/Goldleaf), and select the "Open Website" option.
 
 2- Write "https://github.com" and search Nintendo Switch Web Exploit.
 
