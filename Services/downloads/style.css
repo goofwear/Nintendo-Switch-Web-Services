@@ -1,0 +1,48 @@
+body
+{
+    background-image: linear-gradient(to left, rgb(251, 255, 0), rgb(0, 153, 255));
+    font-family: 'Roboto';
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+select
+{
+    border: none;
+}
+
+option
+{
+    border: none;
+}
+
+button
+{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    min-width: 150px;
+    min-height: 50px;
+    max-width: 150px;
+    max-height: 50px;
+    font-size: 1.5em;
+}
+
+strong
+{
+    color: rgb(255, 0, 0);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    min-height: 80px;
+    max-height: 150px;
+}

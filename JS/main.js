@@ -67,6 +67,12 @@ function redirectToVideos()
     window.location.href = redirectLink;
 }
 
+function redirectToDownloads()
+{
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/downloads/main.html";
+    window.location.href = redirectLink;
+}
+
 // GAMES 
 
 function redirectToPaint()
