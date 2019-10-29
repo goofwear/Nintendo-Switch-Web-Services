@@ -7,16 +7,17 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="app.js"></script>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../CSS/animate.css">
     <link rel="stylesheet" href="style.css">
     <title>Video Loader | Nintendo Switch Web Exploit</title>
 </head>
 <body align="center">
-    <header>
+    <header class="animated flash">
         <h1>Video Loader:</h1>
         <h2>FOR NOW THIS SERVICE IS DOWN!</h2>
     </header>
 
-    <div>
+    <div class="animated flipInY">
         <video width="640" height="480" controls>
             <source src="videos/Test.mp4" type="video/mp4" id="video-source">
             BROWSER ERROR!
@@ -26,7 +27,7 @@
         <button onclick="getVideo()">Load video</button>
     </div>
 
-    <footer>
+    <footer class="animated shake">
         <p>CosmoXD (c) 2019-2020</p>
         <script type="text/javascript">
             function backToIndex()
