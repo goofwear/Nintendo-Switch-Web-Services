@@ -21,7 +21,7 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 2- Write "https://github.com" and search Nintendo Switch Web Exploit.
 
-3- Finally select WEBSITE in the first header.
+3- Finally select WEBSITE HERE ↓↓↓↓↓↓
 
 4- ENJOY!
 
