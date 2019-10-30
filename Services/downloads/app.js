@@ -28,6 +28,10 @@ function getDownload()
         window.location.href = fileLink;
         alert("Sadly I'M NOT HOSTING A FILE! >:]");
     }
+    else if(selectedOption == "rr")
+    {
+        alert("I'm not hosting a file!")
+    }
 }
 
 function redirectToCfw()
@@ -38,6 +42,6 @@ function redirectToCfw()
 
 function redirectToApps()
 {
-    var redirectLink = "#";
+    var redirectLink = "about:blank";
     window.location.href = redirectLink;
 }

@@ -37,6 +37,15 @@ strong
 a
 {
     text-decoration: none;
+    color: rgb(0, 225, 255);
+}
+
+table
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0 ,0 ,0);
+    border-radius: 10px;
+    border: 5px;
 }
 
 button:hover
@@ -45,4 +54,9 @@ button:hover
     color: rgb(255, 255, 255);
     min-height: 80px;
     max-height: 150px;
+}
+
+a:hover 
+{
+    color: rgb(0, 73, 182);
 }
