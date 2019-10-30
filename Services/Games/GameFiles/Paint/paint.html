@@ -3,15 +3,17 @@
 	<title>Paint | Nintendo Switch Web Exploit</title>
 	<script src="app.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../../CSS/animate.css">
     <link rel="shortcut icon" href="../../../../img/Favicon/Favicon.jpg" type="image/x-icon">
 </head>
 
 <body onload="init()">
 	<header align="center">
-		<h1 style="padding: 10px;">Paint:</h1>
+        <h1 style="padding: 10px;" class="animated shake">Paint:</h1>
+        <h2 class="animated fadeInDown">BY: www.zipso.net</h2>
 	</header>
     <div id="sketchpadapp">
-        <input type="submit" value="Clear" id="clearbutton" onclick="clearCanvas(canvas,ctx);">
+        <button id="clearbutton" onclick="clearCanvas(canvas, ctx)" class="animated rubberBand">Clear</button>
         <div class="rightside">
             <canvas id="sketchpad" height="300" width="400" style="margin-right: 7px;"></canvas>
         </div>
@@ -25,7 +27,7 @@
                 window.location.href = redirectLink;
             }
         </script>
-        <button onclick="backToIndex()">Back</button>
+        <button class="animated rotateInUpLeft" onclick="backToIndex()">Back</button>
     </footer>
 </body>
 </html>
