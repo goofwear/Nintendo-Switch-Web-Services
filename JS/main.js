@@ -73,10 +73,23 @@ function redirectToDownloads()
     window.location.href = redirectLink;
 }
 
+function redirectToHomeMenu()
+{
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/ns-home-menu/home.html";
+    window.location.href = redirectLink;
+}
+
 // GAMES 
 
 function redirectToPaint()
 {
     var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/GameFiles/Paint/paint.html";
     window.location.href = gameLink;
+}
+
+// Other
+
+function redirectToHomeMenuHTML5()
+{
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/ns-home-menu/menu/index.html"
 }
