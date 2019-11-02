@@ -28,4 +28,11 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 # [TEST](https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/) (ONLY TEST)
 
-↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+↑↑↑↑↑
+
+# Error Codes: 
+
+|Error |              Reason                                  |
+|------|------------------------------------------------------|
+|0x1   |The browser doesn't support the video.                |
+|0x2   |The image source is unkown or you can't load an image.|
