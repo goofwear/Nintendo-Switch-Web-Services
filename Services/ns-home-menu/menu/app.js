@@ -1,22 +1,44 @@
 function main()
 {
-    var isTest = true;
-    if(isTest == true)
+    var canPass = true; 
+    if(canPass == false)
     {
-        alert("This Service is only for tests!, if you have an pasword you can enter to this website!");
-        var getPass;
-        prompt("Pasword: ", getPass);
-        if(getPass == "switch")
-        {
-            alert("You can enter! :D");
-        }
-        else if(getPass != "switch")
-        {
-            alert("WRONG!");
-            window.location.href = "https://usaelputogoogle.com";
-        }
+        alert("Sorry!, i'm working on this web version of the qLaunch in HTML5 and is not stable!");
+        window.location.href = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/index.html";
     }
 }
 
 // DEFAULT FUNCIONS
 main();
+
+// REDIRECT FUNCTIONS
+
+function news()
+{
+    var redirect = "";
+    window.location.href = redirect;
+}
+
+function eShop()
+{
+    var redirect = "";
+    window.location.href = redirect;
+}
+
+function controls()
+{
+    var redirect = "";
+    window.location.href = redirect;
+}
+
+function configs()
+{
+    var redirect = ""; 
+    window.location.href = redirect;
+}
+
+function sleep()
+{
+    alert("Bye!");
+    window.close();
+}
