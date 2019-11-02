@@ -42,6 +42,6 @@ function redirectToCfw()
 
 function redirectToApps()
 {
-    var redirectLink = "about:blank";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/downloads/APPS/apps.html";
     window.location.href = redirectLink;
 }
