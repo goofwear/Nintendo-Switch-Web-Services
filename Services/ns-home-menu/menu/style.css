@@ -49,3 +49,26 @@ button.game
     max-height: 400px;
     align-items: center;
 }
+
+img.players
+{
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 30px;
+}
+
+img.players:hover 
+{
+    border: none;
+}
+
+img.services 
+{
+    max-width: 32px;
+    max-height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 30px;
+}
