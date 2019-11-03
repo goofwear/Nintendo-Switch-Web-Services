@@ -70,5 +70,9 @@ img.services
     max-height: 32px;
     min-width: 32px;
     min-height: 32px;
-    border-radius: 30px;
+}
+
+img.services:hover
+{
+    border: none;
 }

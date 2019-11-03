@@ -42,3 +42,9 @@ function sleep()
     alert("Bye!");
     window.close();
 }
+
+function photos()
+{
+    var redirect = "";
+    window.localtion.href = redirect;
+}
