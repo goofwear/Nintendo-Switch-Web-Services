@@ -36,12 +36,12 @@ function getDownload()
 
 function redirectToCfw()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/downloads/CFW/cfw.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/downloads/CFW/cfw.html";
     window.location.href = redirectLink;
 }
 
 function redirectToApps()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/downloads/APPS/apps.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/downloads/APPS/apps.html";
     window.location.href = redirectLink;
 }

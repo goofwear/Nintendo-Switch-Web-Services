@@ -4,7 +4,7 @@ function main()
     if(canPass == false)
     {
         alert("Sorry!, i'm working on this web version of the qLaunch in HTML5 and is not stable!");
-        window.location.href = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/index.html";
+        window.location.href = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/index.html";
     }
 }
 

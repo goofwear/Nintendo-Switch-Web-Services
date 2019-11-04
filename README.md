@@ -1,6 +1,8 @@
-# Nintendo Switch Web Exploit
+# Nintendo Switch Web Services
 
-With this "web exploit" you can: open HTML videogames, see videos, open other websites and MORE!, NOW ON DEVELOPMENT!
+This project is an web service for the nintendo switch, with this website, you can: Open Videogames(HTML GAMES),
+
+Websites, see Videos, download hombrew apps and CFW's and MORE!. IN DEVELOPEMENT!
 
 # How to execute: 
 
@@ -10,7 +12,7 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 1- On your Nintendo Switch go to: account->friendship suggestions->Facebook
 
-2- Search NS-Web-Exploit
+2- Search Nintendo Switch Web Services
 
 3- COMING SOON!
 
@@ -19,14 +21,14 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 1- Open [GoldLeaf](https://github.com/XorTroll/Goldleaf), and select the "Open Website" option.
 
-2- Write "https://github.com" and search Nintendo Switch Web Exploit.
+2- Write "https://github.com" and search Nintendo Switch Web Services.
 
 3- Finally select WEBSITE HERE ↓↓↓↓↓↓
 
 4- ENJOY!
 
 
-# [TEST](https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/) (ONLY TEST)
+# [TEST](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/) (ONLY TEST)
 
 ↑↑↑↑↑
 

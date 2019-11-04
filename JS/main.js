@@ -33,49 +33,49 @@ function sayNotReady()
 
 function redirectPayloadLauncher()
 {
-    var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/payloadLoader.html";
+    var redirectPayloadLauncher = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/payloadLoader.html";
     window.location.href = redirectPayloadLauncher;
 }
 
 function redirectGames()
 {
-    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/gameIndex.html"; 
+    var redirectGamesPage = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/Games/gameIndex.html"; 
     window.location.href = redirectGamesPage;
 }
 
 function redirectGameIndex()
 {
-    var redirectGameIndex = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/gameIndex.html"; 
+    var redirectGameIndex = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/Games/gameIndex.html"; 
     window.location.href = redirectGameIndex;
 }
 
 function redirectToServices()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/services.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/services.html";
     window.location.href = redirectLink;
 }
 
 function redirectToWebsites()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/website/main.html"
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/website/main.html"
     window.location.href = redirectLink;
 }
 
 function redirectToVideos()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/video/main.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/video/main.html";
     window.location.href = redirectLink;
 }
 
 function redirectToDownloads()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/downloads/main.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/downloads/main.html";
     window.location.href = redirectLink;
 }
 
 function redirectToHomeMenu()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/ns-home-menu/home.html";
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/ns-home-menu/home.html";
     window.location.href = redirectLink;
 }
 
@@ -83,7 +83,7 @@ function redirectToHomeMenu()
 
 function redirectToPaint()
 {
-    var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/Games/GameFiles/Paint/paint.html";
+    var gameLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/Games/GameFiles/Paint/paint.html";
     window.location.href = gameLink;
 }
 
@@ -91,5 +91,5 @@ function redirectToPaint()
 
 function redirectToHomeMenuHTML5()
 {
-    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Exploit/Services/ns-home-menu/menu/index.html"
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/ns-home-menu/menu/index.html"
 }
