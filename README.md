@@ -4,6 +4,8 @@ This project is an web service for the nintendo switch, with this website, you c
 
 Websites, see Videos, download hombrew apps and CFW's and MORE!. IN DEVELOPEMENT!
 
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J417QAK)
+
 # How to execute: 
 
 If you are seeing this on PC and you don't have idea how execute this website follow this steps.
