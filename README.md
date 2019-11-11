@@ -14,9 +14,11 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 1- On your Nintendo Switch go to: account->friendship suggestions->Facebook
 
-2- Search Nintendo Switch Web Services
+2- Search NS Web Services
 
-3- COMING SOON!
+3- And click the link where it says "The website is:"
+
+4- ENJOY!
 
 
 #### FOR HACKED CONSOLES:
