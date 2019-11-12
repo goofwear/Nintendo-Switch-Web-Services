@@ -1,4 +1,4 @@
-# Nintendo Switch Web Services
+# [Nintendo Switch Web Services](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/)
 
 This project is an web service for the nintendo switch, with this website, you can: Open Videogames(HTML GAMES),
 
@@ -27,14 +27,10 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 2- Write "https://github.com" and search Nintendo Switch Web Services.
 
-3- Finally select WEBSITE HERE ↓↓↓↓↓↓
+3- Finally select WEBSITE [HERE](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/)
 
 4- ENJOY!
 
-
-# [TEST](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/) (ONLY TEST)
-
-↑↑↑↑↑
 
 # Error Codes: 
 
