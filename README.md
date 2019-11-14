@@ -1,8 +1,10 @@
-# Nintendo Switch Web Services
+# [Nintendo Switch Web Services](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/)
 
 This project is an web service for the nintendo switch, with this website, you can: Open Videogames(HTML GAMES),
 
 Websites, see Videos, download hombrew apps and CFW's and MORE!. IN DEVELOPEMENT!
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J417QAK)
 
 # How to execute: 
 
@@ -12,9 +14,11 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 1- On your Nintendo Switch go to: account->friendship suggestions->Facebook
 
-2- Search Nintendo Switch Web Services
+2- Search NS Web Services
 
-3- COMING SOON!
+3- And click the link where it says "The website is:"
+
+4- ENJOY!
 
 
 #### FOR HACKED CONSOLES:
@@ -23,14 +27,10 @@ If you are seeing this on PC and you don't have idea how execute this website fo
 
 2- Write "https://github.com" and search Nintendo Switch Web Services.
 
-3- Finally select WEBSITE HERE ↓↓↓↓↓↓
+3- Finally select WEBSITE [HERE](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/)
 
 4- ENJOY!
 
-
-# [TEST](https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/) (ONLY TEST)
-
-↑↑↑↑↑
 
 # Error Codes: 
 
