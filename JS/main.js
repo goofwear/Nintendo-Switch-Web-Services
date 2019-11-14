@@ -22,6 +22,8 @@ function detectOS()
     {
         alert("You can't enter to this website.");
     }
+    
+    alert(navigator.appVersion.indexOf());
 }
 
 detectOS()
