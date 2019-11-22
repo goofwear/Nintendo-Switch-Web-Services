@@ -79,6 +79,12 @@ function redirectToHomeMenu()
     window.location.href = redirectLink;
 }
 
+function redirectToLiveCode()
+{
+    var redirectLink = "https://cosmoxdd.github.io/Nintendo-Switch-Web-Services/Services/live-code/index.html";
+    window.location.href = redirectLink;
+}
+
 // GAMES 
 
 function redirectToPaint()
